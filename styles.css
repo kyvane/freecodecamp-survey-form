@@ -2,33 +2,71 @@ h1,
 p,
 form {
   font-family: sans-serif;
+  padding: 20px;
   margin: 1em auto;
+}
+
+.desc{
+  margin-top: -60px;
 }
 
 body {
   width: 100%;
   max-width: 800px;
-  min-width: 100px;
+  min-width: 300px;
   height: 100vh;
   margin: auto;
   background-color: #1b1b32;
   color: #f5f6f7;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 form {
   width: 100%;
   max-width: 800px;
-  min-width: 100px;
+  min-width: 300px;
   margin: auto;
 }
 
-input {
-  margin: 10px 0 20px 0;
+input,
+select {
+  margin: 10px 0 40px 0;
   width: 100%;
   min-height: 3em;
+  padding: 0 10px;
+  display: block;
+  font: inherit;
+  font-size: 16px;
 }
 
-.inline {
-  display: inline;
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  margin: 0px 15px 0px 0px;
+  width: 1em;
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+}
+
+.submit-button {
+  margin: 3em auto;
+  width: 40%;
+  background-color: olivedrab;
+}
+
+.question {
+  padding: 0px;
+  margin: 20px 0 10px 0;
+}
+
+textarea {
+  margin: 10px 0 40px 0;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  font: inherit;
+  font-size: 16px;
 }
